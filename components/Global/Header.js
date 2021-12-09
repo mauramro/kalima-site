@@ -5,18 +5,22 @@ const socialLinks = [
   {
     image: "/images/instagram-logo.png",
     alt: "Instagram logo",
+    href: "https://www.instagram.com/kalimarecords/",
   },
   {
     image: "/images/instagram-logo.png",
     alt: "Facebook logo",
+    href: "https://www.facebook.com/kalimarecordsestudio/",
   },
   {
     image: "/images/instagram-logo.png",
     alt: "Youtube logo",
+    href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
   {
     image: "/images/instagram-logo.png",
     alt: "Spotify logo",
+    href: "https://open.spotify.com/artist/3oF4g2Xyt3k5LZZsynOMRi",
   },
 ];
 
@@ -27,7 +31,7 @@ const Header = () => {
         <ul className="flex flex-row items-center">
           {socialLinks.map((social, index) => (
             <li key={index} className="ml-2 first:ml-0">
-              <a href="#">
+              <a href={social.href} target="_blank">
                 <img src={social.image} alt={social.alt} className="h-10" />
               </a>
             </li>
@@ -35,9 +39,9 @@ const Header = () => {
         </ul>
         <Link href="/">
           <img
-            src="/images/instagram-logo.png"
+            src="/images/kalima-logo.jpg"
             alt="Kalima logo"
-            className="h-14"
+            className="h-20"
           />
         </Link>
       </header>
