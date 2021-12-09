@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import Artistas from "../components/Artistas";
+import Banner from "../components/Banner";
 
 export default function Home() {
   return (
@@ -12,9 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <h1 className="">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Banner />
         <Artistas />
       </main>
     </div>

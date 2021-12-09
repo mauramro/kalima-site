@@ -1,14 +1,14 @@
-import React from "react";
-import Footer from "../Footer";
-import Header from "../Header";
+import React, { Fragment } from "react";
+import Footer from "../Global/Footer";
+import Header from "../Global/Header";
 
 const Layout = (props) => {
   return (
-    <div className="container mx-auto">
+    <Fragment>
       <Header />
-      <main>{props.children}</main>
+      <main className="container mx-auto">{props.children}</main>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 
