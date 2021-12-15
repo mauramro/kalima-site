@@ -4,7 +4,7 @@ import artistas from "../testData/artistas";
 
 const Artistas = () => {
   return (
-    <div className="flex flex-nowrap overflow-x-auto p-5 mb-2">
+    <div className="flex overflow-x-auto p-5 mb-2 relative">
       {artistas.map((artista) => (
         <Artista
           key={artista.id}
