@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Artistas from "../components/Artistas";
 import Banner from "../components/Banner";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="">
         <Banner />
         <Artistas />
+        <Testimonials />
       </main>
     </div>
   );
