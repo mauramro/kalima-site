@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <img
-        src="/images/bg-sample.webp"
+        src="/images/person-outdoor-night-park.jpg"
         alt="Banner image"
         className="mx-auto"
       />
