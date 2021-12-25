@@ -5,7 +5,7 @@ import classes from "../styles/main.module.scss";
 const Artista = ({ image, alt, name, id }) => {
   return (
     <div
-      className={`w-60 ml-10 first:ml-0 rounded-2xl bg-green-50 hover:bg-green-100 hover:scale-110 transition duration-400 ${classes.customFlex}`}
+      className={`w-60 ml-10 first:ml-0 rounded-2xl bg-gray-300 hover:bg-gray-100 hover:scale-110 transition duration-400 ${classes.customFlex}`}
     >
       <Link href={`/artista/${id}`}>
         <a>

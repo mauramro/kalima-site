@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="" style={{ backgroundColor: "#000" }}>
       <img
-        src="/images/person-outdoor-night-park.jpg"
+        src="/images/bg-sample.webp"
         alt="Banner image"
         className="mx-auto"
       />
