@@ -32,9 +32,9 @@ const socialLinks = [
 ];
 
 const Header = () => {
-  return ( 
-    <div style={{backgroundColor: "#535353"}} className=" py-5 container mx-auto px-5   ">
-      <header className="container px-5 md:px-0 mx-auto flex justify-between">
+  return (
+    <div className="bg-black py-5 px-5">
+      <header className="container px-5 md:px-0 mx-auto flex justify-between text-white ">
         <ul className="flex flex-row items-center">
           {socialLinks.map((social, index) => (
             <li key={index} className="ml-4 first:ml-0">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer style={{backgroundColor: "#535353"}} className="bg-gray-700">
+    <footer className="bg-black py-5">
       <p className="text-white text-center py-5 text-lg">
         Powered by Rudy S.A.
       </p>

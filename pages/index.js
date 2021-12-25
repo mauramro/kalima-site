@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="bg-gray-900 px-5">
         <Banner />
         <Artistas />
         <Testimonials />
