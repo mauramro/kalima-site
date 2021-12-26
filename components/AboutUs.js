@@ -3,7 +3,7 @@
 const AboutUs = () => {
   return (
     <><h3 className="text-center text-white text-4xl py-5">Acerca de nosotros</h3>
-    <div className="grid sm:grid-cols-1 sm:gap-1 lg:grid-cols-2 lg:gap-2">
+    <div className="grid grid-cols-2 gap-2">
           <div>
               <img
                   src="/images/person-outdoor-night-park.jpg"
