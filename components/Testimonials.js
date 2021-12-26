@@ -11,7 +11,7 @@ export default class Testimonials extends Component {
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
-        interval={6100}
+        interval={4000}
       >
         <div>
           <img src="/images/shirley.png" />
