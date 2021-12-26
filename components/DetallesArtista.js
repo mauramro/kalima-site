@@ -12,6 +12,8 @@ const DetallesArtista = ({ name, image }) => {
         </button>
       </Link>
     </div>
+
+    
   );
 };
 
