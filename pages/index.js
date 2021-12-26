@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutUs from "../components/AboutUs";
 import Artistas from "../components/Artistas";
 import Banner from "../components/Banner";
 import Testimonials from "../components/Testimonials";
@@ -16,6 +17,7 @@ export default function Home() {
         <Banner />
         <Artistas />
         <Testimonials />
+        <AboutUs />
       </main>
     </div>
   );
