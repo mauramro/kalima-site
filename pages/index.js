@@ -13,12 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 px-5">
-        <Banner />
-        <Artistas />
-        <Testimonials />
-        <AboutUs />
-      </main>
+      <Banner />
+      <Artistas />
+      <Testimonials />
+      <AboutUs />
     </div>
   );
 }

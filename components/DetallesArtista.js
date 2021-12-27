@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 
 const DetallesArtista = ({ name, image }) => {
   return (
@@ -7,11 +7,11 @@ const DetallesArtista = ({ name, image }) => {
       <h3 className="mb-4">{name}</h3>
       <img src={`../../images/${image}`} alt="" className="mx-auto" />
       <Link href="/">
-        <button class="mt-5 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ">Regresar</button>
+        <button className="mt-5 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ">
+          Regresar
+        </button>
       </Link>
     </div>
-
-    
   );
 };
 

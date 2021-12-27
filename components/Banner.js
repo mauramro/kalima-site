@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="" style={{ backgroundColor: "#000" }}>
+    <div>
       <img
         src="/images/bg-sample.webp"
         alt="Banner image"
