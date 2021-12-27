@@ -5,13 +5,13 @@ import { Carousel } from "react-responsive-carousel";
 export default class Testimonials extends Component {
   render() {
     return (
-      <Carousel
-        showArrows={true}
+      <Carousel className="py-5"
+        showArrows={false}
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
-        interval={6100}
+        interval={4000}
       >
         <div>
           <img src="/images/shirley.png" />

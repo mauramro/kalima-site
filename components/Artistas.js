@@ -4,17 +4,20 @@ import artistas from "../testData/artistas";
 
 const Artistas = () => {
   return (
-    <div className="flex overflow-x-auto p-5 mb-2 relative container mx-auto px-4 py-5" style={{backgroundColor: "#000"}} >
-      {artistas.map((artista) => (
-        <Artista
-          key={artista.id}
-          id={artista.id}
-          name={artista.name}
-          image={artista.image}
-          alt={artista.alt}
-        />
-      ))}
-    </div>
+    <>
+      <h2 className="text-center text-white text-4xl pt-5 mb-2">Artistas</h2>
+      <div className="flex overflow-x-auto p-5 mb-2 relative">
+        {artistas.map((artista) => (
+          <Artista
+            key={artista.id}
+            id={artista.id}
+            name={artista.name}
+            image={artista.image}
+            alt={artista.alt}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 

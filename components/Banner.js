@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div class="" style={{backgroundColor: "#000"}}>
+    <div>
       <img
-        src="https://image.shutterstock.com/image-photo/guitarist-on-stage-background-soft-600w-635037602.jpg"
+        src="/images/bg-sample.webp"
         alt="Banner image"
         className="mx-auto"
       />
