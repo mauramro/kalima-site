@@ -14,15 +14,14 @@ const idArtista = (props) => {
 };
 
 export async function getStaticPaths() {
+  const paths = artistas.map((artista) => ({
+    params: {
+      artistaId: artista.id,
+    },
+  }));
   return {
     fallback: "blocking", // true/'blocking' if all the paths have been assigned, else not all have been assigned
-    paths: [
-      {
-        params: {
-          artistaId: "",
-        },
-      },
-    ],
+    paths: paths,
   };
 }
 
