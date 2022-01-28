@@ -4,9 +4,9 @@ const Banner = () => {
   return (
     <div>
       <img
-        src="/images/bg-sample.webp"
+        src="/images/vinyl_2.png"
         alt="Banner image"
-        className="mx-auto"
+        className="mx-auto h-screen py-32 animate-spin"
       />
     </div>
   );

@@ -4,6 +4,7 @@ const artistas = [
     name: "Artista 1",
     image: "artista1.jpeg",
     alt: "",
+    desc:"Cantautor costarricense",
     socialLinks: [],
   },
   {
@@ -11,6 +12,7 @@ const artistas = [
     name: "Artista 2",
     image: "artista2.jpeg",
     alt: "",
+    desc:"Vocalista costarricense",
     socialLinks: [],
   },
   {
@@ -18,6 +20,7 @@ const artistas = [
     name: "Artista 3",
     image: "artista3.jpeg",
     alt: "",
+    desc:"Baterista Extranjero",
     socialLinks: [],
   },
   {
@@ -25,6 +28,7 @@ const artistas = [
     name: "Artista 4",
     image: "artista4.jpeg",
     alt: "",
+    desc:"Escritor costarricense",
     socialLinks: [],
   },
   {
@@ -32,6 +36,7 @@ const artistas = [
     name: "Artista 5",
     image: "artista5.jpeg",
     alt: "",
+    desc:"Grupo costarricense",
     socialLinks: [],
   },
 ];

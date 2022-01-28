@@ -1,6 +1,7 @@
 import Head from "next/head";
 import AboutUs from "../components/AboutUs";
 import Artistas from "../components/Artistas";
+import Background from "../components/Background";
 import Banner from "../components/Banner";
 import Testimonials from "../components/Testimonials";
 
@@ -15,6 +16,7 @@ export default function Home() {
 
       <main className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 px-5">
         <Banner />
+        <Background />
         <Artistas />
         <Testimonials />
         <AboutUs />
