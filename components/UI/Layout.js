@@ -6,7 +6,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Header />
-      <div className="bg-gradient-to-r from-black-900 via-black-700 to-black-900">
+      <div className="bg-black">
         <main className="container mx-auto">{props.children}</main>
       </div>
       <Footer />
