@@ -16,8 +16,8 @@ const Artista = ({ image, alt, name, id, desc }) => {
               desc={desc}
               className="h-48 mb-3 mx-auto"
             />
-            <p className="font-medium text-lg">{name}</p>
-            <p className="text-sm">{desc}</p>
+            <p className="font-medium text-lg text-center">{name}</p>
+            {/* <p className="text-sm">{desc}</p> */}
           </div>
         </a>
       </Link>

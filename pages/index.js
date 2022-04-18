@@ -1,9 +1,11 @@
 import Head from "next/head";
-import AboutUs from "../components/AboutUs";
+
 import Artistas from "../components/Artistas";
 import Background from "../components/Background";
 import Banner from "../components/Banner";
 import Testimonials from "../components/Testimonials";
+import Loader from "../components/loader";
+
 
 export default function Home() {
   return (
@@ -14,10 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
+      <Loader />
       <Background />
       <Artistas />
       <Testimonials />
-      <AboutUs />
     </div>
   );
 }
