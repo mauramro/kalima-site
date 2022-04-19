@@ -22,15 +22,19 @@ const AboutUs = () => {
               <p className="p-3">Junto a Estudio Bits nos complace empoderar a todas esas personas en los que en su corazón vive la música, dándoles una opción para darse a conocer respetando los mas finos estadales de la producción y promoción en las plataformas digitales que ahora son la principal forma de entretenimiento.</p>
           </div>
 
-          <div>
-          <Link href="/">
-            <button className="mt-5 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ">
-              Regresar
-            </button>
-         </Link>
-
-          </div>
-      </div></>
+          
+      </div>
+      
+      
+      <div className="text-center">
+        <Link href="/">
+          <button className="mt-5 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ">
+            Regresar
+          </button>
+        </Link>
+      </div>
+      
+      </>
   );
 };
 
