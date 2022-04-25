@@ -44,7 +44,7 @@ const DetallesArtista = ({ name, image, desc }) => {
         </button>
       </Link>
 
-      <div class="content-center">
+      <div className="content-center">
         <ul className="flex flex-row items-center">
           {socialLinks.map((social, index) => (
             <li key={index} className="ml-4 first:ml-0">
