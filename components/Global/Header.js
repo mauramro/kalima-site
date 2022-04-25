@@ -35,6 +35,17 @@ const Header = () => {
   return (
     <div className="bg-black py-5 px-5">
       <header className="container px-5 md:px-0 mx-auto flex justify-between text-white ">
+
+      <Link href="/" passHref>
+          <a>
+            <img
+              src="/images/kalima-logo.jpg"
+              alt="Kalima logo"
+              className="h-20"
+            />
+          </a>
+        </Link>
+        
         <ul className="flex flex-row items-center">
           {socialLinks.map((social, index) => (
             <li key={index} className="ml-4 first:ml-0">
@@ -44,15 +55,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <Link href="/" passHref>
-          <a>
-            <img
-              src="/images/kalima-logo.jpg"
-              alt="Kalima logo"
-              className="h-20"
-            />
-          </a>
-        </Link>
+        
       </header>
     </div>
   );

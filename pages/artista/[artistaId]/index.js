@@ -4,11 +4,11 @@ import artistas from "../../../testData/artistas";
 
 const idArtista = (props) => {
   const selectedArtist = artistas.find((artista) => artista.id === props.id);
-  const { name, image } = selectedArtist;
+  const { name, image, desc } = selectedArtist;
 
   return (
     <Fragment>
-      <DetallesArtista name={name} image={image} />
+      <DetallesArtista name={name} image={image} desc={desc} />
     </Fragment>
   );
 };
